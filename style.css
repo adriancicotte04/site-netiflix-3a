@@ -5,12 +5,14 @@
     --cor-de-fundo:#00030C;
     --fonte-principal:'inter';
     --botao-azul-efeito: #3c92fa;
-
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -22,11 +24,14 @@ body{
     background-image: url("img/backgrond.png");
     background-repeat: no-repeat;
     background-size:  contain;
-    grid-template-columns:50% 50%
+    align-items: center;
+    text-align: center;
+    
 }
 
 .container{
     height: 100vh;
+    grid-template-columns:50% 50%
 }
 .container__botao {
     background-color: var(--botao-azul);
@@ -34,6 +39,8 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
@@ -81,7 +88,7 @@ body{
 }
 .secundario__botao{
     display:inline-block
-    margin-top: 1em
+    margin-top: 1em;
 }
 .container__descricao{
     padding: 2em;
@@ -107,7 +114,7 @@ body{
     text-align: center;
     margin: 5em 3em;
 }
-.rodape__texto{
+.rodape__texto {
     margin: 1 em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
@@ -119,26 +126,3 @@ body{
     background-color: var var(--botao-azul-efeito);
     color:var(--cor-de-fundo);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
