@@ -21,7 +21,7 @@ body{
 }
 
 .principal {
-    background-image: url("img/backgrond.png");
+    background-image: url("backgrond.png");
     background-repeat: no-repeat;
     background-size:  contain;
     align-items: center;
@@ -93,7 +93,7 @@ body{
 .container__descricao{
     padding: 2em;
 }
-.dispositivos__liata{
+.dispositivos__lista{
     display: flex;
     justify-content: center;
     list-style-type: nome;
