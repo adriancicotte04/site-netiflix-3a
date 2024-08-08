@@ -104,8 +104,10 @@ body{
     text-align: center;
 }
 .dispositivos__titulo {
+    font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal)
+    margin: bottom 0.1em;
 }
 .lista__item {
     font-size: 32px;
