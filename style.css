@@ -31,7 +31,7 @@ body{
 
 .container{
     height: 100vh;
-    display: 50% 50%;
+    display: grid;
     grid-template-columns:50% 50%
 }
 .container__botao {
@@ -78,32 +78,32 @@ body{
     margin:0 10em
 }
 
-.decricao__texto{
+.decricao__texto {
     color: var(--cinza-secundario)
 }
-.descricao__titulo{
+.descricao__titulo {
     font-weight: 700;
     font-size: 48px;
     color:var (--branco-principal);
     margin: 0.1em;
 }
-.secundario__botao{
+.secundario__botao {
     display:inline-block;
     margin-top: 1em;
 }
-.container__descricao{
+.container__descricao {
     padding: 2em;
 }
-.dispositivos__lista{
+.dispositivos__lista {
     display: flex;
     justify-content: center;
     list-style-type: nome;
     margin: 5em 0;
 }
-.dispositivos{
+.dispositivos {
     text-align: center;
 }
-.dispositivos__titulo{
+.dispositivos__titulo {
     font-size: 48px;
     color: var(--branco-principal)
 }
