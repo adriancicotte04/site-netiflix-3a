@@ -121,7 +121,7 @@ body{
     font-size: 14px;
 }
 .lista__link a:hover {
-    color:   purple;
+    color: var(--botao-azul);
 }
 .container__botao:hover{
     background-color: var var(--botao-azul-efeito);
